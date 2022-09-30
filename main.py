@@ -10,7 +10,7 @@ from upload_client import upload
 from download import download
 import urllib.parse
          
-app = Client('name',api_id=19713367,api_hash='d230396f42e9802e1effd06cc3200df3',bot_token='5419588907:AAH-OYKQWyLy88HqcaXIsnLw9kG4fMABhsA')
+app = Client('name',api_id=19713367,api_hash='d230396f42e9802e1effd06cc3200df3',bot_token='5765888521:AAF3PqtFLh6MHuXgiMn85ueVqk-j0KrQhRU')
 @app.on_message(filters.private & filters.text)
 async def home(client, message):
 	text = message.text
